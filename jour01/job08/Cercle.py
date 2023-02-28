@@ -7,7 +7,7 @@ class Cercle:
         self.rayon = nouveau_rayon
     
     def afficherInfos(self):
-        print(f"Le rayon est {self.rayon}")
+        print(f"Le rayon est {self.rayon}, la circonférence est : {self.circonference()}, l'aire est {self.aire()} et pour diamètre {self.diametre()}")
     
     def circonference(self):
         return self.rayon * 2 * pi
